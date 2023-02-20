@@ -314,12 +314,13 @@ section {
                         transition: all .4s ease-in-out;
                         width: 60%;
                     }
-                    .html { width: 80%; }
-                    .css { width: 95%; }
-                    .js { width: 75%; }
-                    .react{ width: 60%; }
-                    .node{ width: 87%; }
-                    .python{ width: 70%; }
+                    //qui modifico la lunghezza delle barre 
+                    .python { width: 85%; }
+                    .cpp { width: 80%; }
+                    .c { width: 75%; }
+                    .vhdl{ width: 75%; }
+                    .sql{ width: 70%; }
+                    .html5{ width: 20%; }
                 }
             }
         }
@@ -429,6 +430,8 @@ section {
                 font-size: 1.5rem;
                 color: var(--color-white);
                 margin-bottom: 1.5rem;
+                text-align: center;
+            }
             }
             .icons {
                 display: flex;
